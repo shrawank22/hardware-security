@@ -1,0 +1,236 @@
+$date
+	Sun Sep 04 17:40:50 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! out [3:0] $end
+$var reg 4 " i0 [3:0] $end
+$var reg 4 # i1 [3:0] $end
+$var reg 4 $ i10 [3:0] $end
+$var reg 4 % i11 [3:0] $end
+$var reg 4 & i12 [3:0] $end
+$var reg 4 ' i13 [3:0] $end
+$var reg 4 ( i14 [3:0] $end
+$var reg 4 ) i15 [3:0] $end
+$var reg 4 * i2 [3:0] $end
+$var reg 4 + i3 [3:0] $end
+$var reg 4 , i4 [3:0] $end
+$var reg 4 - i5 [3:0] $end
+$var reg 4 . i6 [3:0] $end
+$var reg 4 / i7 [3:0] $end
+$var reg 4 0 i8 [3:0] $end
+$var reg 4 1 i9 [3:0] $end
+$var reg 4 2 select [3:0] $end
+$scope module DUT $end
+$var wire 4 3 i0 [3:0] $end
+$var wire 4 4 i1 [3:0] $end
+$var wire 4 5 i10 [3:0] $end
+$var wire 4 6 i11 [3:0] $end
+$var wire 4 7 i12 [3:0] $end
+$var wire 4 8 i13 [3:0] $end
+$var wire 4 9 i14 [3:0] $end
+$var wire 4 : i15 [3:0] $end
+$var wire 4 ; i2 [3:0] $end
+$var wire 4 < i3 [3:0] $end
+$var wire 4 = i4 [3:0] $end
+$var wire 4 > i5 [3:0] $end
+$var wire 4 ? i6 [3:0] $end
+$var wire 4 @ i7 [3:0] $end
+$var wire 4 A i8 [3:0] $end
+$var wire 4 B i9 [3:0] $end
+$var wire 4 C select [3:0] $end
+$var wire 4 D out [3:0] $end
+$scope module FA1 $end
+$var wire 4 E i0 [3:0] $end
+$var wire 4 F i1 [3:0] $end
+$var wire 4 G i10 [3:0] $end
+$var wire 4 H i11 [3:0] $end
+$var wire 4 I i12 [3:0] $end
+$var wire 4 J i13 [3:0] $end
+$var wire 4 K i14 [3:0] $end
+$var wire 4 L i15 [3:0] $end
+$var wire 4 M i2 [3:0] $end
+$var wire 4 N i3 [3:0] $end
+$var wire 4 O i4 [3:0] $end
+$var wire 4 P i5 [3:0] $end
+$var wire 4 Q i6 [3:0] $end
+$var wire 4 R i7 [3:0] $end
+$var wire 4 S i8 [3:0] $end
+$var wire 4 T i9 [3:0] $end
+$var wire 4 U select [3:0] $end
+$var reg 4 V out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1100 V
+b0 U
+b1110 T
+b11 S
+b1101 R
+b1010 Q
+b0 P
+b1001 O
+b1011 N
+b110 M
+b10 L
+b1 K
+b111 J
+b100 I
+b1000 H
+b1111 G
+b101 F
+b1100 E
+b1100 D
+b0 C
+b1110 B
+b11 A
+b1101 @
+b1010 ?
+b0 >
+b1001 =
+b1011 <
+b110 ;
+b10 :
+b1 9
+b111 8
+b100 7
+b1000 6
+b1111 5
+b101 4
+b1100 3
+b0 2
+b1110 1
+b11 0
+b1101 /
+b1010 .
+b0 -
+b1001 ,
+b1011 +
+b110 *
+b10 )
+b1 (
+b111 '
+b100 &
+b1000 %
+b1111 $
+b101 #
+b1100 "
+b1100 !
+$end
+#2
+b101 !
+b101 D
+b101 V
+b1 2
+b1 C
+b1 U
+#4
+b110 !
+b110 D
+b110 V
+b10 2
+b10 C
+b10 U
+#6
+b1011 !
+b1011 D
+b1011 V
+b11 2
+b11 C
+b11 U
+#8
+b1001 !
+b1001 D
+b1001 V
+b100 2
+b100 C
+b100 U
+#10
+b0 !
+b0 D
+b0 V
+b101 2
+b101 C
+b101 U
+#12
+b1010 !
+b1010 D
+b1010 V
+b110 2
+b110 C
+b110 U
+#14
+b1101 !
+b1101 D
+b1101 V
+b111 2
+b111 C
+b111 U
+#16
+b11 !
+b11 D
+b11 V
+b1000 2
+b1000 C
+b1000 U
+#18
+b1110 !
+b1110 D
+b1110 V
+b1001 2
+b1001 C
+b1001 U
+#20
+b1111 !
+b1111 D
+b1111 V
+b1010 2
+b1010 C
+b1010 U
+#22
+b1000 !
+b1000 D
+b1000 V
+b1011 2
+b1011 C
+b1011 U
+#24
+b100 !
+b100 D
+b100 V
+b1100 2
+b1100 C
+b1100 U
+#26
+b111 !
+b111 D
+b111 V
+b1101 2
+b1101 C
+b1101 U
+#28
+b1 !
+b1 D
+b1 V
+b1110 2
+b1110 C
+b1110 U
+#30
+b10 !
+b10 D
+b10 V
+b1111 2
+b1111 C
+b1111 U
+#230
